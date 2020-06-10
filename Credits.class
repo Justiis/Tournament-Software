@@ -155,7 +155,7 @@ public class Credits
     Desktop broswer = Desktop.getDesktop();
     try
     {
-      broswer.browse(new URI("https://www.paypal.me/Justiis"));
+      broswer.browse(new URI("my pp account.com"));
     }
     catch (IOException localIOException) {}catch (URISyntaxException localURISyntaxException) {}
   }
