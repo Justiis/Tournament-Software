@@ -77,7 +77,7 @@ public class Credits
     });
     this.jLabel1.setBackground(new Color(51, 255, 153));
     this.jLabel1.setFont(new Font("Trebuchet MS", 1, 19));
-    this.jLabel1.setText("Created by Justiis");
+    this.jLabel1.setText("Created by M");
     
     JButton btnBack = new JButton("BACK");
     btnBack.addActionListener(new ActionListener()
@@ -92,7 +92,7 @@ public class Credits
     });
     btnBack.setFont(new Font("Sitka Text", 0, 11));
     
-    JLabel lblSpecialThanksTo = new JLabel("Special Thanks to Anthik");
+    JLabel lblSpecialThanksTo = new JLabel("Special Thanks to Everyone");
     lblSpecialThanksTo.setFont(new Font("Trebuchet MS", 1, 13));
     lblSpecialThanksTo.setForeground(Color.WHITE);
     
@@ -165,7 +165,7 @@ public class Credits
     Desktop broswer = Desktop.getDesktop();
     try
     {
-      broswer.browse(new URI("https://www.youtube.com/channel/UCLYchV7Dl7fIee--tA8V38g"));
+      broswer.browse(new URI("my private yt channel!"));
     }
     catch (IOException localIOException) {}catch (URISyntaxException localURISyntaxException) {}
   }
