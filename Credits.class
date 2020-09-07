@@ -36,7 +36,7 @@ public class Credits
   
   public Credits()
   {
-    super("Tournament Random 1v1 - by Justiis");
+    super("Tournament Random 1v1 - by Internall");
     getContentPane().setBackground(Color.DARK_GRAY);
     initComponents();
     setResizable(false);
